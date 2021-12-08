@@ -1,0 +1,9 @@
+*~
+*#
+lib/
+out/
+.dapprc
+*/.ipynb_checkpoints
+*/__pycache__/*
+config.py
+*.pyc
