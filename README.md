@@ -7,7 +7,7 @@ A simple experiment that:
 
 Final project for ChainShort bootcamp Oct 2021 cohort. 
 
-## Presentation Decck
+## Presentation Deck
 The project presentation deck is in `presentation` directory. It gives an
 overview about the project.
 
