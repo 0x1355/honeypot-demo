@@ -13,25 +13,25 @@ overview about the project.
 
 ## Experiment addresses and txs
 Honeypot contract address:
-0x1e232d5871979eaa715de2c38381574a9c886bad
+`0x1e232d5871979eaa715de2c38381574a9c886bad`
 
 Bot contract:
-0x31B7e144b2CF261A015004BEE9c84a98263E2F66
+`0x31B7e144b2CF261A015004BEE9c84a98263E2F66`
 
 Bot operator:
-0x0a04e8b4d2014cd2d07a9eaf946945bed1262a99
+`0x0a04e8b4d2014cd2d07a9eaf946945bed1262a99`
 
 Failed tx 1 (block 13710082, index 22):
-0xcc1172506d5b5fa09cbf66d2296deb24958181f186817eb29cbe8385fd55ed51
+`0xcc1172506d5b5fa09cbf66d2296deb24958181f186817eb29cbe8385fd55ed51`
 
 Frontrun tx 1 (block 13710082, index 0):
-0x18ec2c2e5720c6d332a0f308f8803e834e06c78dcebdc255178891ead56c6d73
+`0x18ec2c2e5720c6d332a0f308f8803e834e06c78dcebdc255178891ead56c6d73`
 
 Failed tx 2 (block 13710542, index 80): 
-0xfce9b77a8c7b8544cb699ce646558dc506e030aaba1533c917d7841bcc3f206a
+`0xfce9b77a8c7b8544cb699ce646558dc506e030aaba1533c917d7841bcc3f206a`
 
 Frontrun tx 2 (block 13710542, index 0):
-0x8cda6e76f9a19ce69967d9f74d52402afbafba6ca3469248fe5c9937ef065d47
+`0x8cda6e76f9a19ce69967d9f74d52402afbafba6ca3469248fe5c9937ef065d47`
 
 ## Running contract tests
 The contract tests are written in Solidity. To run them:
