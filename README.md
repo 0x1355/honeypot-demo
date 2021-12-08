@@ -7,8 +7,8 @@ A simple experiment that:
 
 Final project for ChainShort bootcamp Oct 2021 cohort. 
 
-## Demo slides
-The project presentation slide is in `presentation` directory. It gives an
+## Presentation Decck
+The project presentation deck is in `presentation` directory. It gives an
 overview about the project.
 
 ## Honeypot contract
