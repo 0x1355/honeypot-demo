@@ -1,6 +1,10 @@
+from web3 import Web3
+
 def parse_og_calldata(calldata):
     
-    result = [calldata[0:10]]
+    result = {'method': calldata[0:10]}
+
+    args = []
 
     arg_len = 64
 
@@ -9,15 +13,17 @@ def parse_og_calldata(calldata):
 
     while arg_start_i < len(calldata):
         next_arg = calldata[arg_start_i:arg_end_i]
-        result.append(next_arg)
+        args.append(next_arg)
         arg_start_i += arg_len
         arg_end_i += arg_len
+
+    result['args'] = args
 
     return result
 
 
 def parse_bot_calldata(calldata):
-    parsed = {}
+    result = {}
     result['method'] = calldata[0:10]
     result['target_contract'] = calldata[10:50]
     result['og_calldata_length'] = calldata[50: 58]
