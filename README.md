@@ -2,7 +2,7 @@
 
 A simple experiment that:
 - Creates a honeypot contract
-- Baits a generalized fronturnning bot with a unique transaction
+- Baits a generalized fronturnning MEV bot with a unique transaction
 - Analyze bot behaviour using a black box approach
 
 Final project for ChainShort bootcamp Oct 2021 cohort. 
