@@ -4,12 +4,13 @@
 * Honeypot
 A simple experiment that:
 - Creates a honeypot contract
-- Baits a generalized fronturnning bot with a unique transaction
+- Baits a generalized fronturnning MEV bot with a unique transaction
 - Analyze bot behaviour using a black box approach
-
-* Why generalized frontrunning bot?
-- They are real
-- They can frontrun even the most unknown protocols
+  
+* Why generalized frontrunning MEV bots?
+- Dark forest
+- Work on even the most unknown protocols
+- Some even frontrun DeFi hacks
 
 * Why baiting?
 - No public source code
@@ -25,8 +26,7 @@ A simple experiment that:
 - Contract code
 - Contract tests
 - Deployment
-- My txs
-- Bot txs
+- Honeypot txs
 - Bot calldata
 - Bot PnL
 
@@ -34,6 +34,6 @@ A simple experiment that:
 - Calculate PnL based on EVM state changes
 - Make the code generalizable and performing
 - Find and study other bots
-- Make an arbitrage bot
+- Make a bot
 
 
