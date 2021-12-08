@@ -1,1 +1,39 @@
 #+TITLE: Honeypot
+#+STARTUP: content
+
+* Honeypot
+A simple experiment that:
+- Creates a honeypot contract
+- Baits a generalized fronturnning bot with a unique transaction
+- Analyze bot behaviour using a black box approach
+
+* Why generalized frontrunning bot?
+- They are real
+- They can frontrun even the most unknown protocols
+
+* Why baiting?
+- No public source code
+- State of the art is constantly changing
+- Indistinguishable from other bots on the surfaces
+
+* Tech stack
+- Solidity: dapptools
+- Python: web3.py, pytest, pandas, etc
+- Data sources: Alchemy and Etherscan
+
+* Demo
+- Contract code
+- Contract tests
+- Deployment
+- My txs
+- Bot txs
+- Bot calldata
+- Bot PnL
+
+* Beyond the demo
+- Calculate PnL based on EVM state changes
+- Make the code generalizable and performing
+- Find and study other bots
+- Make an arbitrage bot
+
+
