@@ -68,6 +68,7 @@ def compute_pnl(tx_hash, tx):
                          'gross_profit': [net_profit + tip],
                          'miner_tip': [tip],
                          'tx_cost': [tx_data.gas_cost],
-                         'pnl': [net_profit - tx_data.gas_cost]})
+                         'pnl': [net_profit - tx_data.gas_cost],
+                         'calldata': tx_data.calldata})
 
 
