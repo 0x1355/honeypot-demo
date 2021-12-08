@@ -2,7 +2,7 @@ import numpy as np, pandas as pd, os
 from helpers.config import *
 from helpers.account import Account
 from helpers.tx import Tx
-from helpers.helpers import *
+from helpers.pnl import *
 
 
 operator_addr = '0x0a04e8b4d2014cd2d07a9eaf946945bed1262a99'
