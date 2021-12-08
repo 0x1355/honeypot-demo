@@ -24,9 +24,10 @@ use `web3.py` and include your Etherscan API key and Alchemy RPC endpoint in
 You can view the analysis files on GitHub. If you want to edit and run them, you
 need to run Jupyter Notebook server with `Anaconda` or something similar.
 
-## Known issues
-There issues are known by the time of the final presentation:
+## Known limitations
+There limitaitons are known by the time of the final presentation:
 - [ ] Unoptimized performance and too many JSON-RPC calls in when fetching data
 - [ ] PnL computation is based on heuristic, not EVM state changes
+- [ ] Outlier detection is based on manual sample check
 - [ ] A few hardcoded simplifications like constant token prices
 - [ ] No test for `helper.py`
