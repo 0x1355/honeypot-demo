@@ -33,14 +33,19 @@ Failed tx 2 (block 13710542, index 80):
 Frontrun tx 2 (block 13710542, index 0):
 0x8cda6e76f9a19ce69967d9f74d52402afbafba6ca3469248fe5c9937ef065d47
 
-## Honeypot contract
-Contract and tests are written in Solidity. Install `dapptools` to run the
-tests.
+## Running contract tests
+The contract tests are written in Solidity. To run them:
+1. Install `dapptools` on your machine
+2. Navigate to the project root directory in terminal, then `dapp install ds-test`
+3. Rename `.dapprc.template` to `.dapprc` and add your Ethereum RPC endpoint
+4. Use `dapp test` to run the tests.
 
 ## PnL dataset
-To create or update the PnL dataset, run `create_pnl_datasets.py`. You need to
-use `web3.py` and include your Etherscan API key and Alchemy RPC endpoint in
-`config.py`
+To create or update the PnL dataset:
+1. Make sure you have Python 3 and `web3.py` installed on your machine
+2. Rename `config.template.py` to `config.py` and add your Etherscan API key and
+   Alchemy RPC endpoint
+3. Run `python analysis/create_pnl_datasets.py` in your terminal
 
 ## Analysis
 You can view the analysis files on GitHub. If you want to edit and run them, you
@@ -52,4 +57,4 @@ These limitaitons are known by the time of the final presentation:
 - [ ] PnL computation is based on heuristic, not EVM state changes
 - [ ] Outlier detection is based on manual sample check
 - [ ] A few hardcoded simplifications like constant token prices
-- [ ] No test for `helper.py`
+- [ ] No test for `pnl.py` and `calldata.py`
