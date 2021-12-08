@@ -14,3 +14,12 @@ def parse_og_calldata(calldata):
         arg_end_i += arg_len
 
     return result
+
+
+def parse_bot_calldata(calldata):
+    parsed = {}
+    result['method'] = calldata[0:10]
+    result['target_contract'] = calldata[10:50]
+    result['og_calldata_length'] = calldata[50: 58]
+    result['og_calldata'] = calldata[58:(58 + Web3.toInt(hexstr=result['og_calldata_length']) * 2)]
+    return result
