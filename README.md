@@ -42,7 +42,7 @@ The contract tests are written in Solidity. To run them:
 
 ## PnL dataset
 To create or update the PnL dataset:
-1. Make sure you have Python 3 and `web3.py` installed on your machine
+1. Make sure you have Python 3 and the relevant modules installed on your machine
 2. Rename `config.template.py` to `config.py` and add your Etherscan API key and
    Alchemy RPC endpoint
 3. Run `python analysis/create_pnl_datasets.py` in your terminal
