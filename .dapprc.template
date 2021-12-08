@@ -1,0 +1,2 @@
+export DAPP_TEST_NUMBER=9999
+export ETH_RPC_URL=< rpc endpoint >
