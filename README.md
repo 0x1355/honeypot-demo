@@ -1,4 +1,4 @@
-# Honeypot :honeypot:
+# Honeypot :honey_pot:
 
 A simple experiment that:
 - Create a honeypot contract
