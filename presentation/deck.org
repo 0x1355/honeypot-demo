@@ -13,9 +13,9 @@ A simple experiment that:
 - Some even frontrun DeFi hacks
 
 * Why baiting?
-- No public source code
 - State of the art is constantly changing
-- Indistinguishable from other bots on the surfaces
+- No public source code
+- Seemingly indistinguishable from other bots
 
 * Tech stack
 - Solidity: dapptools
@@ -23,17 +23,4 @@ A simple experiment that:
 - Data sources: Alchemy and Etherscan
 
 * Demo
-- Contract code
-- Contract tests
-- Deployment
-- Honeypot txs
-- Bot calldata
-- Bot PnL
-
-* Beyond the demo
-- Calculate PnL based on EVM state changes
-- Make the code generalizable and performing
-- Find and study other bots
-- Make a bot
-
-
+(...)
